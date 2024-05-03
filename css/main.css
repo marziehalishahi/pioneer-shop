@@ -19,3 +19,9 @@
 	src: url('/assets/fonts/eot/IRANSansWeb(FaNum)_Medium.eot');
 	src: url('/assets/fonts/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */ url('/assets/fonts/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/ url('/assets/fonts/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('/assets/fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
 }
+
+@layer components {
+  .wrapper {
+    @apply w-full sm:max-w-[500px] lg:max-w-[1000px];
+  }
+}
