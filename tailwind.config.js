@@ -2,6 +2,7 @@
 const colors = require('tailwindcss/colors')
 
 export default {
+  prefix: 'tw-',
   content: ["*.html"],
   theme: {
     extend: {
