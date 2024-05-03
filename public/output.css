@@ -948,6 +948,14 @@ video {
     margin-bottom: 1rem;
   }
 
+  .sm\:w-6\/12 {
+    width: 50%;
+  }
+
+  .sm\:w-full {
+    width: 100%;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
